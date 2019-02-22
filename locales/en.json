@@ -1,0 +1,123 @@
+{
+  "default": {
+    "title": "Developer jgregorio"
+  },
+  "profile": {
+    "name": "Jesús Gregorio Pérez",
+    "position": "Full Stack Developer",
+    "email": "gregoriojesus0@gmail.com",
+    "twitter": "https://twitter.com/gregoriojesus0",
+    "linkedin": "https://www.linkedin.com/in/jesus-gregorio-4bb8aa79",
+    "github": "https://github.com/jgregorio0",
+    "location": "Sevilla, Spain",
+    "phone": "+34 652 099 398"
+  },
+  "components": {
+    "header": {
+      "contactme": "Contact Me"
+    },
+    "footer": {
+      "designer": "Designed with <i class='fas fa-heart' /> by <a href='https://themes.3rdwavemedia.com' target='_blank'> Xiaoying Riley</a> and adapted by <a href='#'>jgregorio</a>"
+    },
+    "about": {
+      "heading": "About Me",
+      "content": "<p>Enthusiastic and passionate developer. Hands-on professional I took part in a variety of projects and build customers trust by teaching and providing first line support.</p><p>During my studies of Computer Systems Engineering I was awarded honors in the field of Programming and the Erasmus Scholarship. Before graduating, I did an internship in London. Working as developer since 2014 I achieve high understanding of Java and fluent using Groovy, JavaScript and SQL. I’ve learned Vue.js as JavaScript framework for developing personal projects.</p><p>Currently, seeking new opportunities to focus on top frameworks and make a step forward in my career.</p>"
+    },
+    "additionalInfo": {
+      "heading": "Basic Information",
+      "label": {
+        "location": "Location:",
+        "email": "Email:",
+        "phone": "Phone:"
+      }
+    },
+    "skills": {
+      "heading": "Skills"
+    },
+    "latestProjects": {
+      "heading": "Latest Projects",
+      "more": "Find out more",
+      "mainProject": {
+        "id": "chefcaprabo-talleres-calendario",
+        "title": "Chef Caprabo workshop calendar",
+        "url": "https://www.chefcaprabo.com/es/escuela-de-cocina/talleres-chef-caprabo/los-talleres/calendario.html",
+        "image": "/images/projects/caprabo-talleres-calendario.png",
+        "paragraphs": [
+          "Improving performance of searching using <strong>Apache Solr</strong> for consulting indexes instead database.",
+          "Improving user experience and reducing server load utilizing <strong>AJAX and JQuery</strong>."
+        ]
+      },
+      "projects": [
+        {
+          "id": "demili",
+          "title": "DeMILI user",
+          "url": "https://demilitest.com/",
+          "image": "/images/projects/demilitest.png",
+          "paragraphs": [
+            "Website integrating <strong>Marionette.js</strong> into OpenCms frontend.",
+            "Using <strong>Spring Boot</strong> for build <strong>REST</strong> services.",
+            "Persisting data using <strong>Hibernate</strong>."
+          ]
+        },
+        {
+          "id": "UPO",
+          "title": "Pablo de Olavide University",
+          "url": "https://www.upo.es/profesorado",
+          "image": "/images/projects/upo-profesores.png",
+          "paragraphs": [
+            "Developing content synchronization system against <strong>Oracle</strong> database using <strong>Spring MVC</strong> and implementing <strong>OpenCms CRON</strong> functionality.",
+            "<strong>Single sign on</strong> integration into OpenCms for <strong>CAS server</strong> using <strong>pac4j</strong> library."
+          ]
+        },
+        {
+          "id": "sagasuite-migration",
+          "title": "SagaSuite Migration",
+          "url": "http://www.sagasoluciones.com/",
+          "image": "/images/projects/sagasuite-migration.png",
+          "paragraphs": [
+            "<strong>Groovy</strong> based content migration and transformation tool. It opens a <strong>HTTP</strong> connection between two OpenCms servers, exchange data in <strong>JSON</strong> format, transform data using <strong>JSOUP</strong> and migrate content on the fly using extended CMS API."
+          ]
+        },
+        {
+          "id": "padron",
+          "title": "Diputación de Sevilla y Málaga (Sevilla and Málaga Council)",
+          "url": "https://www.malaga.eu/gobierno-abierto/transparencia-ayuntamiento/",
+          "image": "/images/projects/malaga.png",
+          "paragraphs": [
+            "<strong>SOAP</strong> clients integration using <strong>JAX-WS</strong> and <strong>Apache AXIS</strong> for authenticating users against council system."
+          ]
+        },
+        {
+          "id": "tcu",
+          "title": "Tribunal de Cuentas",
+          "url": "https://www.tcu.es/tribunal-de-cuentas/es/",
+          "image": "/images/projects/tcu.png",
+          "paragraphs": ["Teaching OpenCms course for editors."]
+        },
+        {
+          "id": "usc",
+          "title": "Santiago de Compostela University",
+          "url": "https://www.usc.es/es/index.html",
+          "image": "/images/projects/usc.png",
+          "paragraphs": ["Teaching OpenCms course for administrators."]
+        }
+      ]
+    },
+    "personalProjects": {
+      "heading": "Personal Projects",
+      "projects": [
+        {
+          "id": "blog",
+          "title": "Blog",
+          "url": "https://blog.jgregorio.es",
+          "image": "/images/projects/blog.png",
+          "paragraphs": [
+            "Blog / Snippets repository created with JS framework <strong>Nuxt.js (Vue.js)</strong> based on <strong>PWA<strong>/ template.",
+            "<strong>Firebase</strong> for user authentication and posts persistence.",
+            "Hosted on <strong>Heroku</strong>."
+          ]
+        }
+      ]
+    }
+  }
+}
