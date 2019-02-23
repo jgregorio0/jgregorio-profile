@@ -1,6 +1,6 @@
 {
   "default": {
-    "title": "Developer jgregorio"
+    "title": "Full Stack Developer developer"
   },
   "profile": {
     "name": "Jesús Gregorio Pérez",
@@ -38,25 +38,34 @@
       "heading": "Latest Projects",
       "more": "Find out more",
       "mainProject": {
-        "id": "chefcaprabo-talleres-calendario",
-        "title": "Chef Caprabo workshop calendar",
-        "url": "https://www.chefcaprabo.com/es/escuela-de-cocina/talleres-chef-caprabo/los-talleres/calendario.html",
-        "image": "/images/projects/caprabo-talleres-calendario.png",
+        "id": "demili",
+        "title": "DeMILI",
+        "url": "https://demilitest.com/",
+        "image": "/images/projects/demilitest.png",
         "paragraphs": [
-          "Improving performance of searching using <strong>Apache Solr</strong> for consulting indexes instead database.",
-          "Improving user experience and reducing server load utilizing <strong>AJAX and JQuery</strong>."
+          "Website integrating <strong>Marionette.js</strong> into OpenCms frontend.",
+          "<strong>Spring Boot</strong> for build <strong>REST</strong> services.",
+          "<strong>Hibernate</strong> persistence layer."
         ]
       },
       "projects": [
         {
-          "id": "demili",
-          "title": "DeMILI user",
-          "url": "https://demilitest.com/",
-          "image": "/images/projects/demilitest.png",
+          "id": "sagasuite-migration",
+          "title": "SagaSuite Migration",
+          "url": "http://www.sagasoluciones.com/",
+          "image": "/images/projects/sagasuite-migration.png",
           "paragraphs": [
-            "Website integrating <strong>Marionette.js</strong> into OpenCms frontend.",
-            "Using <strong>Spring Boot</strong> for build <strong>REST</strong> services.",
-            "Persisting data using <strong>Hibernate</strong>."
+            "<strong>Groovy</strong> based content migration and transformation tool. It opens a <strong>HTTP</strong> connection between two OpenCms servers, exchange data in <strong>JSON</strong> format, transform data using <strong>JSOUP</strong> and migrate content on the fly using extended CMS API."
+          ]
+        },
+        {
+          "id": "chefcaprabo-talleres-calendario",
+          "title": "Chef Caprabo workshop calendar",
+          "url": "https://www.chefcaprabo.com/es/escuela-de-cocina/talleres-chef-caprabo/los-talleres/calendario.html",
+          "image": "/images/projects/caprabo-talleres-calendario.png",
+          "paragraphs": [
+            "Improving performance of searching using <strong>Apache Solr</strong> for consulting indexes instead database.",
+            "Improving user experience and reducing server load utilizing <strong>AJAX and JQuery</strong>."
           ]
         },
         {
@@ -67,15 +76,6 @@
           "paragraphs": [
             "Developing content synchronization system against <strong>Oracle</strong> database using <strong>Spring MVC</strong> and implementing <strong>OpenCms CRON</strong> functionality.",
             "<strong>Single sign on</strong> integration into OpenCms for <strong>CAS server</strong> using <strong>pac4j</strong> library."
-          ]
-        },
-        {
-          "id": "sagasuite-migration",
-          "title": "SagaSuite Migration",
-          "url": "http://www.sagasoluciones.com/",
-          "image": "/images/projects/sagasuite-migration.png",
-          "paragraphs": [
-            "<strong>Groovy</strong> based content migration and transformation tool. It opens a <strong>HTTP</strong> connection between two OpenCms servers, exchange data in <strong>JSON</strong> format, transform data using <strong>JSOUP</strong> and migrate content on the fly using extended CMS API."
           ]
         },
         {
@@ -116,6 +116,87 @@
             "<strong>Firebase</strong> for user authentication and posts persistence.",
             "Hosted on <strong>Heroku</strong>."
           ]
+        }
+      ]
+    },
+    "workingExperience": {
+      "heading": "Work Experience",
+      "experiences": [
+        {
+          "id": "sagasoluciones",
+          "company": "Saga Soluciones",
+          "url": "http://www.sagasoluciones.com",
+          "place": "Sevilla, Spain",
+          "year": "March 2014 - Present",
+          "position": "Fullstack developer",
+          "description": "Developing and integrating services into OpenCms, an open source CMS based on Java. Providing first line support and advanced training as OpenCms expert. Expanding SagaSuite, software suite that extends OpenCms features. Optimizing user interface using JavaScript."
+        },
+        {
+          "id": "crowndalecenter",
+          "company": "Camden Learning Programme Office",
+          "url": "http://www.camden.gov.uk/crowndalecentre",
+          "place": "London, UK",
+          "year": "September 2013 - November 2013",
+          "position": "Freelance IT",
+          "description": "Installing and updating Android and Ubuntu. Configuring and calibrating them in order to maintain a straight-forward, user-friendly working environment for staff."
+        },
+        {
+          "id": "casalatina",
+          "company": "Latin American House of London",
+          "url": "http://www.casalatina.org.uk",
+          "place": "London, UK",
+          "year": "March 2013 - September 2013",
+          "position": "IT Assistant",
+          "description": "Content editor using Wordpress and Joomla. Maintenance and installation of computer systems and devices. Teaching computer basics."
+        }
+      ]
+    },
+    "education": {
+      "heading": "Education",
+      "studies": [
+        {
+          "id": "us",
+          "title": "Computer Systems Engineering",
+          "location": "Seville, Spain",
+          "center": "University of Seville",
+          "date": "October 2007 - 2014",
+          "description": "I have an average of 7.17 out of 10. Honors in Programming. As my final project I'm developing music software based on Java, which helps people to learn guitar. Awarded the Erasmus Scholarship."
+        },
+        {
+          "id": "erasmus",
+          "title": "Computer Systems Engineering (Erasmus)",
+          "location": "Volos, Greece",
+          "center": "University of Thessaly",
+          "date": "January - June 2012",
+          "description": "I took part in an Erasmus exchange program, studying and living for 6 months in Volos. Acquired skills to work with people from other cultures and countries, communicating in English successfully."
+        }
+      ]
+    },
+    "languages": {
+      "heading": "Languages",
+      "langs": [
+        {
+          "id": "es",
+          "title": "Spanish",
+          "level": "Native",
+          "stars": 5
+        },
+        {
+          "id": "en",
+          "title": "English",
+          "level": "Fluent B2 certificated",
+          "stars": 3
+        }
+      ]
+    },
+    "conferences": {
+      "heading": "Conferences",
+      "conferences": [
+        {
+          "id": "opencms-days",
+          "title": "OpenCms Days - Advance to OpenCms 10.5",
+          "location": "Cologne, Germany",
+          "url": "http://www.opencms-days.org"
         }
       ]
     }
