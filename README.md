@@ -139,3 +139,70 @@ export const mutations = {
 # Theme
 
 Based on [xriley/Developer-Theme](https://github.com/xriley/developer-theme)
+
+# Font awesome
+
+1. Incluir dependencia del módulo font-awesome por encima de nuxt
+
+```
+"dependencies": {
+"@fortawesome/free-solid-svg-icons": "^5.3.1",
+"nuxt-fontawesome": "^0.3.0",
+"nuxt": "latest"
+},
+```
+
+En caso de que build falle añadir:
+
+- "@fortawesome/fontawesome-svg-core": "^1.2.4",
+- "@fortawesome/vue-fontawesome": "^0.1.1",
+
+2. Anadirlo al fichero nuxt.config.js
+* Se puede importar el conjunto completo o solo unos iconos
+
+```
+  /*
+  ** Modules
+  */
+  modules: ["nuxt-fontawesome"],
+  /*
+  ** fontawesome
+  */
+  fontawesome: {
+    component: "fa",
+    imports: [
+      {
+        set: "@fortawesome/free-solid-svg-icons",
+        icons: ["faExternalLinkAlt"]
+      }
+    ]
+  },
+```
+
+4. Para utilizarlo
+
+```
+<template>
+<div>
+  <fa :icon="faExternalLinkAlt" />
+</div>
+</template>
+
+<script>
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+export default {
+  computed: {
+      faExternalLinkAlt() {
+        return faExternalLinkAlt;
+      }
+    }
+}
+</script>
+```
+
+# TODO
+
+1. Traducir al espahnol
+2. Rellenar skills
+2. Mover bloque aside de forma que se muestre por encima
+3. anaadir soft skills
