@@ -50,20 +50,8 @@ module.exports = {
         body: true
       },
       {
-        src: '/plugins/github-calendar/dist/github-calendar.min.js',
-        body: true
-      },
-      {
-        src: '/plugins/github-calendar/dist/github-calendar.min.js',
-        body: true
-      },
-      {
         src:
           '//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js',
-        body: true
-      },
-      {
-        src: '/plugins/github-activity/github-activity-0.1.5.min.js',
         body: true
       },
       {
@@ -108,8 +96,22 @@ module.exports = {
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    'nuxt-fontawesome'
   ],
+
+  /*
+  ** fontawesome
+  */
+  fontawesome: {
+    component: 'fa',
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['faCode', 'faDatabase', 'faToolbox']
+      }
+    ]
+  },
 
   /**
    * Router
