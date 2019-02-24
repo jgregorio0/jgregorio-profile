@@ -9,8 +9,10 @@
           Xiaoying Riley
         </a>
         and adapted by
+        <a href="https://github.com/jgregorio0" target="_blank">
+          Jesús Gregorio
+        </a>
       </small>
-      jgregorio
     </div>
     <!--//container-->
   </footer>
