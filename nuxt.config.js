@@ -30,10 +30,6 @@ module.exports = {
     ],
     script: [
       {
-        src: 'https://use.fontawesome.com/releases/v5.1.0/js/all.js',
-        defer: ''
-      },
-      {
         src: '/plugins/jquery-3.3.1.min.js',
         body: true
       },
@@ -108,7 +104,15 @@ module.exports = {
     imports: [
       {
         set: '@fortawesome/free-solid-svg-icons',
-        icons: ['faCode', 'faDatabase', 'faToolbox']
+        icons: [
+          'faCode',
+          'faDatabase',
+          'faToolbox',
+          'faBrain',
+          'faPhone',
+          'faEnvelope',
+          'faMapMarkerAlt'
+        ]
       }
     ]
   },

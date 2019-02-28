@@ -203,6 +203,3 @@ export default {
 # TODO
 
 1. Traducir al espahnol
-2. Rellenar skills
-2. Mover bloque aside de forma que se muestre por encima
-3. anaadir soft skills
