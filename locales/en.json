@@ -33,37 +33,66 @@
     },
     "skills": {
       "heading": "Skills",
-      "backend": [
-        {
-          "id": "java-groovy-sql",
-          "title": "Java, Groovy, JSP, SQL"
-        },
-        {
-          "id": "opencms-springboot-rest-hibernate",
-          "title": "OpenCms, Spring Boot, REST, Hibernate"
-        },
-        {
-          "id": "apache",
-          "title": "Apache, Apache Tomcat, Apache Solr"
-        },
-        {
-          "id": "mvn-gradle",
-          "title": "Maven, Gradle"
-        },
-        {
-          "id": "mysql-oracle",
-          "title": "MySQL, Oracle"
-        }
-      ],
-      "frontend": [
-        { "id": "js-html", "title": "JavaScript, HTML" },
-        { "id": "vue-nuxt", "title": "Vue.js, Nuxt.js" },
-        {
-          "id": "webpack-npm-jest-axios-ajax-jquery",
-          "title": "Webpack, NPM, Jest, Axios, AJAX, JQuery"
-        }
-      ],
-      "others": [{ "id": "git-vb-docker", "title": "GIT, Virtual Box, Docker" }]
+      "backend": {
+        "heading": "Backend",
+        "skills": [
+          {
+            "id": "java-groovy-sql",
+            "title": "Java, Groovy, JSP, SQL"
+          },
+          {
+            "id": "opencms-springboot-rest-hibernate",
+            "title": "OpenCms, Spring Boot, REST, Hibernate"
+          },
+          {
+            "id": "apache",
+            "title": "Apache, Apache Tomcat, Apache Solr"
+          },
+          {
+            "id": "mvn-gradle",
+            "title": "Maven, Gradle"
+          },
+          {
+            "id": "mysql-oracle",
+            "title": "MySQL, Oracle"
+          }
+        ]
+      },
+      "frontend": {
+        "heading": "Frontend",
+        "skills": [
+          { "id": "js-html", "title": "JavaScript, HTML" },
+          { "id": "vue-nuxt", "title": "Vue.js, Nuxt.js" },
+          {
+            "id": "webpack-npm-eslint-jest-axios-ajax-jquery",
+            "title": "Webpack, NPM, ESLint, Jest, Axios, AJAX, JQuery"
+          }
+        ]
+      },
+      "others": {
+        "heading": "Others",
+        "skills": [
+          {
+            "id": "git-vb-docker",
+            "title": "GIT, Virtual Box, Docker"
+          }
+        ]
+      },
+      "softskills": {
+        "heading": "Soft Skills",
+        "skills": [
+          {
+            "id": "fast-learner",
+            "title": "Fast learner, self-motivated, optimist and enthusiastic.",
+            "description": "I always keep learning and experimenting with new frameworks."
+          },
+          {
+            "id": "flexible",
+            "title": "Flexible, team player, self-confident.",
+            "description": "Studying and working in multicultural environments tough me how to adapt myself, respect, support each member of the team and notice different profiles."
+          }
+        ]
+      }
     },
     "latestProjects": {
       "heading": "Latest Projects",
