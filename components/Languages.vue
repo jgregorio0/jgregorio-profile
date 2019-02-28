@@ -1,5 +1,5 @@
 <template>
-  <aside class="languages aside section">
+  <aside :class="mainClass">
     <div class="section-inner">
       <h2 class="heading">{{ $t('components.languages.heading') }}</h2>
       <div class="content">
@@ -26,3 +26,22 @@
     <!--//section-inner-->
   </aside>
 </template>
+
+<script>
+export default {
+  props: {
+    addClass: {
+      type: String,
+      default: '',
+      required: false
+    }
+  },
+  computed: {
+    mainClass() {
+      return this.addClass
+        ? 'languages aside section ' + this.addClass
+        : 'languages aside section'
+    }
+  }
+}
+</script>

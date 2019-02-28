@@ -2,17 +2,27 @@
   <div class="container sections-wrapper">
     <div class="row">
       <div class="primary col-lg-8 col-12">
+        <AdditionalInfo addClass="d-lg-none"/>
+        <!--//aside aditional info-->
         <About/>
         <!--//section about-->
+        <Skills addClass="d-lg-none"/>
+        <!--//section skills-->
+        <WorkingExperience/>
+        <!--//section working experience-->
         <LatestProjects/>
         <!--//section latest projects-->
         <PersonalProjects/>
         <!--//section personal projects-->
-        <WorkingExperience/>
-        <!--//section working experience-->
+        <Education addClass="d-lg-none"/>
+        <!--//section education-->
+        <Languages addClass="d-lg-none"/>
+        <!--//section langages-->
+        <Conferences addClass="d-lg-none"/>
+        <!--//section conferences-->
       </div>
       <!--//primary-->
-      <div class="secondary col-lg-4 col-12">
+      <div class="secondary d-none d-lg-block col-lg-4">
         <AdditionalInfo/>
         <!--//aside aditional info-->
         <Skills/>

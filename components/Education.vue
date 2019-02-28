@@ -1,5 +1,5 @@
 <template>
-  <aside class="education aside section">
+  <aside :class="mainClass">
     <div class="section-inner">
       <h2 class="heading">{{ $t('components.education.heading')}}</h2>
       <div class="content">
@@ -21,3 +21,21 @@
     <!--//section-inner-->
   </aside>
 </template>
+<script>
+export default {
+  props: {
+    addClass: {
+      type: String,
+      default: '',
+      required: false
+    }
+  },
+  computed: {
+    mainClass() {
+      return this.addClass
+        ? 'education aside section ' + this.addClass
+        : 'education aside section'
+    }
+  }
+}
+</script>
