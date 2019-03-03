@@ -4,48 +4,114 @@
   },
   "profile": {
     "name": "Jesús Gregorio Pérez",
-    "position": "Full Stack Developer",
+    "position": "Desarrollador Full Stack",
     "email": "gregoriojesus0@gmail.com",
     "twitter": "https://twitter.com/gregoriojesus0",
     "linkedin": "https://www.linkedin.com/in/jesus-gregorio-4bb8aa79",
     "github": "https://github.com/jgregorio0",
-    "location": "Sevilla, Spain",
+    "location": "Sevilla, España",
     "phone": "+34 652 099 398"
   },
   "components": {
     "header": {
-      "contactme": "Contact Me"
+      "contactme": "Contactar"
     },
     "footer": {
-      "designer": "Designed with <i class='fas fa-heart' /> by <a href='https://themes.3rdwavemedia.com' target='_blank'> Xiaoying Riley</a> and adapted by <a href='#'>jgregorio</a>"
+      "designer": "Diseñado por <a href='https://themes.3rdwavemedia.com' target='_blank'> Xiaoying Riley</a> y adaptado por <a href='#'>jgregorio</a>"
     },
     "about": {
-      "heading": "About Me",
-      "content": "<p>Enthusiastic and passionate developer. Hands-on professional I took part in a variety of projects and build customers trust by teaching and providing first line support.</p><p>During my studies of Computer Systems Engineering I was awarded honors in the field of Programming and the Erasmus Scholarship. Before graduating, I did an internship in London. Working as developer since 2014 I achieve high understanding of Java and fluent using Groovy, JavaScript and SQL. I’ve learned Vue.js as JavaScript framework for developing personal projects.</p><p>Currently, seeking new opportunities to focus on top frameworks and make a step forward in my career.</p>"
+      "heading": "Quién soy",
+      "content": "<p>Entusiasta y apasionado de la programación. Profesional con experiencia en múltiples frameworks, habiendo tomado parte en diversos proyectos y ganado la confianza de los clientes mediante cursos de formación y servicios de consultoría.</p><p>Formado en Ingeniería Técnica Informática de Sistemas, con matrícula de honor en Programación, fuí becado en el programa Erasmus y realicé prácticas laborales en Londres. Trabajando desde 2014 como desarrollador orientado a los lenguajes de programación Java, Groovy, JavaScript y consultas SQL.  Desarrollando proyectos personales he adquirido conocimiento en Vue.js como framework JavaScript.</p><p>Actualmente, me encuentro buscando una oportunidad de dar un paso adelante en mi carrera en un puesto como desarrador Full Stack.</p>"
     },
     "additionalInfo": {
-      "heading": "Basic Information",
+      "heading": "Información básica",
       "label": {
-        "location": "Location:",
-        "email": "Email:",
-        "phone": "Phone:"
+        "location": "Ubicación:",
+        "email": "Correo electrónico:",
+        "phone": "Teléfono:"
       }
     },
     "skills": {
-      "heading": "Skills"
+      "heading": "Capacidades Técnicas",
+      "backend": {
+        "heading": "Backend",
+        "skills": [
+          {
+            "id": "java-groovy-jsp-sql",
+            "title": "Java, Groovy, JSP, SQL"
+          },
+          {
+            "id": "opencms-springboot-rest-hibernate",
+            "title": "OpenCms, Spring Boot, REST, Hibernate"
+          },
+          {
+            "id": "apache",
+            "title": "Apache, Apache Tomcat, Apache Solr"
+          },
+          {
+            "id": "mvn-gradle",
+            "title": "Maven, Gradle"
+          },
+          {
+            "id": "mysql-oracle",
+            "title": "MySQL, Oracle"
+          }
+        ]
+      },
+      "frontend": {
+        "heading": "Frontend",
+        "skills": [
+          {
+            "id": "js-html",
+            "title": "JavaScript, HTML"
+          },
+          {
+            "id": "vue-nuxt",
+            "title": "Vue.js, Nuxt.js"
+          },
+          {
+            "id": "webpack-npm-eslint-jest-axios-ajax-jquery",
+            "title": "Webpack, NPM, ESLint, Jest, Axios, AJAX, JQuery"
+          }
+        ]
+      },
+      "others": {
+        "heading": "Others",
+        "skills": [
+          {
+            "id": "git-vb-docker",
+            "title": "GIT, Virtual Box, Docker"
+          }
+        ]
+      },
+      "softskills": {
+        "heading": "Soft Skills",
+        "skills": [
+          {
+            "id": "fast-learner",
+            "title": "Aprendo rápido, autodidacta, optimista y entusiasta de la programación.",
+            "description": "Me mantengo informado de las últimas novedades sobre los frameworks que utiliza y voy adquiriendo conocimiento sobre otros nuevos."
+          },
+          {
+            "id": "flexible",
+            "title": "Flexible, trabajador de equipo y con confianza en mí mismo.",
+            "description": "Estudiar y trabajar en el extranjero me ha enseñado a desenvolverme en entornos multiculturales. Trabajando en equipo he servido de apoyo a sus miembros y organizado el trabajo siguiendo una metodología SCRUM."
+          }
+        ]
+      }
     },
     "latestProjects": {
-      "heading": "Latest Projects",
-      "more": "Find out more",
+      "heading": "Últimos proyectos",
+      "more": "Más información",
       "mainProject": {
         "id": "demili",
         "title": "DeMILI",
         "url": "https://demilitest.com/",
         "image": "/images/projects/demilitest.png",
         "paragraphs": [
-          "Website integrating <strong>Marionette.js</strong> into OpenCms frontend.",
-          "<strong>Spring Boot</strong> for build <strong>REST</strong> services.",
-          "<strong>Hibernate</strong> persistence layer."
+          "Aplicación de gestión en OpenCms integrando <strong>Marionette.js</strong> para la renderización frontend.",
+          "Desarrollo de servicios REST con <strong>Spring Boot</strong>.",
+          "Capa de persistencia con <strong>Hibernate</strong>."
         ]
       },
       "projects": [
@@ -55,36 +121,38 @@
           "url": "http://www.sagasoluciones.com/",
           "image": "/images/projects/sagasuite-migration.png",
           "paragraphs": [
-            "<strong>Groovy</strong> based content migration and transformation tool. It opens a <strong>HTTP</strong> connection between two OpenCms servers, exchange data in <strong>JSON</strong> format, transform data using <strong>JSOUP</strong> and migrate content on the fly using extended CMS API."
+            "Herramienta de migración de contenidos basada en <strong>Groovy</strong>.",
+            "Establece una conexión HTTP entre servidores mediante <strong>Apache HTTP</strong>",
+            "Transmite los recursos dinámicos en formato <strong>JSON</strong>, descarga el contenido estático y ejecuta la migración al vuelo."
           ]
         },
         {
           "id": "chefcaprabo-talleres-calendario",
-          "title": "Chef Caprabo workshop calendar",
+          "title": "Talleres Chef Caprabo",
           "url": "https://www.chefcaprabo.com/es/escuela-de-cocina/talleres-chef-caprabo/los-talleres/calendario.html",
           "image": "/images/projects/caprabo-talleres-calendario.png",
           "paragraphs": [
-            "Improving performance of searching using <strong>Apache Solr</strong> for consulting indexes instead database.",
-            "Improving user experience and reducing server load utilizing <strong>AJAX and JQuery</strong>."
+            "Mejora del rendimiento en búsquedas con <strong>Apache Solr</strong>.",
+            "Mejora de la experiencia de usuario mediante el uso de las librerías <strong>AJAX and JQuery</strong>."
           ]
         },
         {
           "id": "UPO",
-          "title": "Pablo de Olavide University",
+          "title": "Universidad Pablo de Olavide",
           "url": "https://www.upo.es/profesorado",
           "image": "/images/projects/upo-profesores.png",
           "paragraphs": [
-            "Developing content synchronization system against <strong>Oracle</strong> database using <strong>Spring MVC</strong> and implementing <strong>OpenCms CRON</strong> functionality.",
-            "<strong>Single sign on</strong> integration into OpenCms for <strong>CAS server</strong> using <strong>pac4j</strong> library."
+            "Desarrollo de un sistema de sincronización con base de datos <strong>Oracle</strong> a través de un servicio <strong>Spring MVC</strong> y la API de <strong>OpenCms</strong> para tareas programadas.",
+            "Integración de un cliente <strong>CAS</strong> en OpenCms mediante la librería <strong>pac4j</strong>."
           ]
         },
         {
           "id": "padron",
-          "title": "Diputación de Sevilla y Málaga (Sevilla and Málaga Council)",
+          "title": "Diputación de Sevilla y Málaga",
           "url": "https://www.malaga.eu/gobierno-abierto/transparencia-ayuntamiento/",
           "image": "/images/projects/malaga.png",
           "paragraphs": [
-            "<strong>SOAP</strong> clients integration using <strong>JAX-WS</strong> and <strong>Apache AXIS</strong> for authenticating users against council system."
+            "Integración del sistema autenticación del Padrón mediante servicios <strong>SOAP</strong> usando las librerías <strong>JAX-WS</strong> y <strong>Apache AXIS</strong>."
           ]
         },
         {
@@ -93,22 +161,22 @@
           "url": "https://www.tcu.es/tribunal-de-cuentas/es/",
           "image": "/images/projects/tcu.png",
           "paragraphs": [
-            "Teaching OpenCms course for editors."
+            "Curso de formación para editores."
           ]
         },
         {
           "id": "usc",
-          "title": "Santiago de Compostela University",
+          "title": "Universidad Santiago de Compostela",
           "url": "https://www.usc.es/es/index.html",
           "image": "/images/projects/usc.png",
           "paragraphs": [
-            "Teaching OpenCms course for administrators."
+            "Curso de formación para administrators."
           ]
         }
       ]
     },
     "personalProjects": {
-      "heading": "Personal Projects",
+      "heading": "Proyectos personales",
       "projects": [
         {
           "id": "blog",
@@ -116,68 +184,68 @@
           "url": "https://blog.jgregorio.es",
           "image": "/images/projects/blog.png",
           "paragraphs": [
-            "Blog / Snippets repository created with JS framework <strong>Nuxt.js (Vue.js)</strong> based on <strong>PWA<strong>/ template.",
-            "<strong>Firebase</strong> for user authentication and posts persistence.",
-            "Hosted on <strong>Heroku</strong>."
+            "<strong>PWA<strong> basado en el framework de JavaScript <strong>Nuxt.js (Vue.js)</strong>.",
+            "Utilizo <strong>Firebase</strong> para la persistencia y la autenticación.",
+            "Hospedado en la plataforma <strong>Heroku</strong> que permite integrar <strong>GIT</strong> para el despliegue."
           ]
         }
       ]
     },
     "workingExperience": {
-      "heading": "Work Experience",
+      "heading": "Experiencia Laboral",
       "experiences": [
         {
           "id": "sagasoluciones",
           "company": "Saga Soluciones",
           "url": "http://www.sagasoluciones.com",
-          "place": "Sevilla, Spain",
-          "year": "March 2014 - Present",
-          "position": "Fullstack developer",
-          "description": "Developing and integrating services into OpenCms, an open source CMS based on Java. Providing first line support and advanced training as OpenCms expert. Expanding SagaSuite, software suite that extends OpenCms features. Optimizing user interface using JavaScript."
+          "place": "Sevilla, España",
+          "year": "Marzo 2014 - Presente",
+          "position": "Consultor OpenCms / Desarrollador JAVA",
+          "description": "Desarrollando e integrando servicios en OpenCms, un CMS de código abierto basado en Java. Ofreciendo servicio de consultoría y formación avanzada como experto en OpenCms. Mejorando y manteniendo SagaSuite, suite de herramientas que extienden las funcionalidades de OpenCms. Optimizando la interfaz de usuario usando JavaScript."
         },
         {
           "id": "crowndalecenter",
           "company": "Camden Learning Programme Office",
           "url": "http://www.camden.gov.uk/crowndalecentre",
-          "place": "London, UK",
-          "year": "September 2013 - November 2013",
-          "position": "Freelance IT",
-          "description": "Installing and updating Android and Ubuntu. Configuring and calibrating them in order to maintain a straight-forward, user-friendly working environment for staff."
+          "place": "Londres, Gran Bretaña",
+          "year": "Septiembre 2013 - Noviembre 2013",
+          "position": "Técnico Informático",
+          "description": "Instalación y actualización de sistemas Android and Ubuntu."
         },
         {
           "id": "casalatina",
           "company": "Latin American House of London",
           "url": "http://www.casalatina.org.uk",
-          "place": "London, UK",
-          "year": "March 2013 - September 2013",
-          "position": "IT Assistant",
-          "description": "Content editor using Wordpress and Joomla. Maintenance and installation of computer systems and devices. Teaching computer basics."
+          "place": "Londres, Gran Bretaña",
+          "year": "Marzo 2013 - Septiembre 2013",
+          "position": "Asistente TI",
+          "description": "Editor de contenidos en Wordpress y Joomla. Mantenimiento e instalación de sistemas informáticos. Formación básica en el uso de computadores."
         }
       ]
     },
     "education": {
-      "heading": "Education",
+      "heading": "Educación",
       "studies": [
         {
           "id": "us",
-          "title": "Computer Systems Engineering",
-          "location": "Seville, Spain",
-          "center": "University of Seville",
-          "date": "October 2007 - 2014",
-          "description": "I have an average of 7.17 out of 10. Honors in Programming. As my final project I'm developing music software based on Java, which helps people to learn guitar. Awarded the Erasmus Scholarship."
+          "title": "Ingeniería Técnica Informática de Sistemas",
+          "location": "Sevilla, España",
+          "center": "Universidad de Sevilla",
+          "date": "Octubre 2007 - 2014",
+          "description": "Nota media del expediente académico de 7.17 sobre 10. Matrícula de honor en Programación. Como proyecto fin de carrera, desarrollé un sistema de aprendizaje musical basado en Java. Becado en el programa Erasmus."
         },
         {
           "id": "erasmus",
           "title": "Computer Systems Engineering (Erasmus)",
           "location": "Volos, Greece",
-          "center": "University of Thessaly",
-          "date": "January - June 2012",
-          "description": "I took part in an Erasmus exchange program, studying and living for 6 months in Volos. Acquired skills to work with people from other cultures and countries, communicating in English successfully."
+          "center": "Universidad de Tesalia",
+          "date": "Enero - Junio 2012",
+          "description": "Becado en el programa Erasmus, estudié durante 6 meses en la universidad de Tesalia, en Volos, donde adquirí conocimientos de comunicación desenvolviendome en un entorno multicultural con lengua inglesa."
         }
       ]
     },
     "languages": {
-      "heading": "Languages",
+      "heading": "Idiomas",
       "langs": [
         {
           "id": "es",
@@ -194,12 +262,12 @@
       ]
     },
     "conferences": {
-      "heading": "Conferences",
+      "heading": "Conferencias",
       "conferences": [
         {
           "id": "opencms-days",
           "title": "OpenCms Days - Advance to OpenCms 10.5",
-          "location": "Cologne, Germany",
+          "location": "Colonia, Alemania",
           "url": "http://www.opencms-days.org"
         }
       ]

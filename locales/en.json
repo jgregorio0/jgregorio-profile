@@ -9,7 +9,7 @@
     "twitter": "https://twitter.com/gregoriojesus0",
     "linkedin": "https://www.linkedin.com/in/jesus-gregorio-4bb8aa79",
     "github": "https://github.com/jgregorio0",
-    "location": "Sevilla, Spain",
+    "location": "Seville, Spain",
     "phone": "+34 652 099 398"
   },
   "components": {
@@ -186,7 +186,7 @@
           "id": "sagasoluciones",
           "company": "Saga Soluciones",
           "url": "http://www.sagasoluciones.com",
-          "place": "Sevilla, Spain",
+          "place": "Seville, Spain",
           "year": "March 2014 - Present",
           "position": "Fullstack developer",
           "description": "Developing and integrating services into OpenCms, an open source CMS based on Java. Providing first line support and advanced training as OpenCms expert. Expanding SagaSuite, software suite that extends OpenCms features. Optimizing user interface using JavaScript."
