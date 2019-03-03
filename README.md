@@ -200,6 +200,55 @@ export default {
 </script>
 ```
 
-# TODO
+# Heroku
 
-1. Traducir al espahnol
+1.  Para Ubuntu
+
+```
+sudo snap install heroku --classic
+```
+
+2. Login
+
+```
+heroku login
+```
+
+3. Crear app
+
+```
+heroku create jgregorio-profile
+```
+
+4. Genera 2 URLs y anade Heroku a GIT
+https://jgregorio-profile.herokuapp.com/ | https://git.heroku.com/jgregorio-profile.git
+
+5. Indica que instale `devDependencies`
+
+```
+heroku config:set NPM_CONFIG_PRODUCTION=false
+```
+
+6. Configurar host 0.0.0.0 y ejecuta en modo produccion:
+
+```
+heroku config:set HOST=0.0.0.0
+heroku config:set NODE_ENV=production
+```
+
+7. Indicar a Heroku que ejecute `npm run build` via `heroku-postbuild`
+
+```
+"scripts": {
+  "dev": "nuxt",
+  "build": "nuxt build",
+  "start": "nuxt start",
+  "heroku-postbuild": "npm run build"
+}
+```
+
+8. Despliega la app
+
+```
+git push heroku master
+```
