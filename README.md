@@ -158,7 +158,8 @@ En caso de que build falle añadir:
 - "@fortawesome/vue-fontawesome": "^0.1.1",
 
 2. Anadirlo al fichero nuxt.config.js
-* Se puede importar el conjunto completo o solo unos iconos
+
+- Se puede importar el conjunto completo o solo unos iconos
 
 ```
   /*
@@ -221,7 +222,7 @@ heroku create jgregorio-profile
 ```
 
 4. Genera 2 URLs y anade Heroku a GIT
-https://jgregorio-profile.herokuapp.com/ | https://git.heroku.com/jgregorio-profile.git
+   https://jgregorio-profile.herokuapp.com/ | https://git.heroku.com/jgregorio-profile.git
 
 5. Indica que instale `devDependencies`
 
@@ -251,4 +252,50 @@ heroku config:set NODE_ENV=production
 
 ```
 git push heroku master
+```
+
+# Github Pages
+
+1. Configurar build y generate
+
+- nuxt.config.js
+
+```
+// only add `router.base = '/jgregorio-profile/'` if `DEPLOY_ENV` is `GH_PAGES`
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/jgregorio-profile/'
+        }
+      }
+    : {}
+
+export default {
+  ...routerBase
+  <other-config>
+}
+```
+
+- package.json
+
+```
+"scripts": {
+  "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+  "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
+}
+```
+
+1. Despliegue en Github Pages
+
+```
+npm install push-dir --save-dev
+```
+
+- package.json
+
+```
+"scripts": {
+  "deploy:gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup"
+},
 ```

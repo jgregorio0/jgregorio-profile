@@ -1,5 +1,15 @@
 const pkg = require('./package')
 
+// only add `router.base = '/jgregorio-profile/'` if `DEPLOY_ENV` is `GH_PAGES`
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/jgregorio-profile/'
+        }
+      }
+    : {}
+
 module.exports = {
   mode: 'universal',
 
@@ -121,6 +131,7 @@ module.exports = {
    * Router
    */
   router: {
+    ...routerBase,
     middleware: 'i18n'
   },
 
@@ -148,6 +159,6 @@ module.exports = {
    * Generate
    */
   generate: {
-    routes: ['/', '/about', '/fr', '/fr/about']
+    routes: ['/', '/es', '/en']
   }
 }
