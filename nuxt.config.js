@@ -40,29 +40,9 @@ module.exports = {
     ],
     script: [
       {
-        src: '/plugins/jquery-3.3.1.min.js',
-        body: true
-      },
-      {
-        src: '/plugins/popper.min.js',
-        body: true
-      },
-      {
-        src: '/plugins/bootstrap/js/bootstrap.min.js',
-        body: true
-      },
-      {
-        src: '/plugins/jquery-rss/dist/jquery.rss.min.js',
-        body: true
-      },
-      {
-        src:
-          '//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js',
-        body: true
-      },
-      {
-        src: '/plugins/theme/main.js',
-        body: true
+        src: 'https://use.fontawesome.com/releases/v5.7.2/js/all.js',
+        body: true,
+        defer: true
       }
     ]
   },
